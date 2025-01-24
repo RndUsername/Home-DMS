@@ -18,13 +18,13 @@ Planned Features:
 - [ ] improve tag workflow
 - [ ] optimize for desktop
 - [ ] support scanners to directly import images
-- [ ] show comressed images instead of original
+- [ ] show compressed images instead of original
 
 
 ## Why not Paperless-NGX, Docspell, Papermerge, ...
 Currently the answer to the question, why you should use Home-DMS instead of any alternative DMS is: **Don't**.
 
-But if your not really happy with any existing solution, you should keep an eye on Home-DMS. As a very new project, it relies on your feedback to become the DMS you want.
+But if you are not really happy with any existing solution, you should keep an eye on Home-DMS. As a very new project, it relies on your feedback to become the DMS you want.
 
 The goals, which Home-DMS currently strives for are:
 - Best in class UX: A modern UI that is aproachable to non-technical people.
@@ -41,7 +41,7 @@ The goals, which Home-DMS currently strives for are:
     pb_migrations
     pb_public
     ```
-5. Run `./pocketbase serve`. This will open a browser window, when running PocketBase for the first time, where you can create a superuser account for PocketBase. But This is not necessary.
+5. Run `./pocketbase serve`. This will open a browser window, when running PocketBase for the first time, where you can create a superuser account for PocketBase. But this is not necessary.
 6. You can now access Home-DMS through http://localhost:8090.
 
 ## Updating
