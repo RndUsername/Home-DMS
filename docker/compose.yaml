@@ -1,0 +1,10 @@
+services:
+  home-dms:
+    build: .
+    ports:
+      - "8090:8090"
+    volumes:
+      - home-dms-data:/home-dms/pb_data
+
+volumes:
+  home-dms-data:
